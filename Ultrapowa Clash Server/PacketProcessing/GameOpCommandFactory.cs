@@ -36,7 +36,6 @@ namespace UCS.PacketProcessing
             m_vCommands.Add("/max", typeof(MaxRessourcesCommand));
             m_vCommands.Add("/saveacc", typeof(SaveAccountGameOpCommand));
             m_vCommands.Add("/saveall", typeof(SaveAllGameOpCommand));
-            m_vCommands.Add("/berkan", typeof(TestingGameOpCommand));
             m_vCommands.Add("/becomeleader", typeof(BecomeLeaderGameOpCommand));
         }
 
