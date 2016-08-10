@@ -33,15 +33,16 @@ namespace UCS.PacketProcessing
             m_vMessages.Add(10117, typeof(ReportPlayerMessage)); 
             m_vMessages.Add(10113, typeof(GetDeviceTokenMessage));
             m_vMessages.Add(10212, typeof(ChangeAvatarNameMessage)); //Works
+         // m_vMessages.Add(10905, typeof(NewsSeenMessage));//Gives OutofSync   
             m_vMessages.Add(14101, typeof(GoHomeMessage)); //Works
             m_vMessages.Add(14102, typeof(ExecuteCommandsMessage));
             m_vMessages.Add(14113, typeof(VisitHomeMessage));//Works
             m_vMessages.Add(14134, typeof(AttackNpcMessage));//Works
             m_vMessages.Add(14201, typeof(FacebookLinkMessage));
-            m_vMessages.Add(14316, typeof(EditClanSettingsMessage));//Needed
-            m_vMessages.Add(14301, typeof(CreateAllianceMessage));//Works 1/2
+            m_vMessages.Add(14316, typeof(EditClanSettingsMessage));//Works
+            m_vMessages.Add(14301, typeof(CreateAllianceMessage));//Works
             m_vMessages.Add(14302, typeof(AskForAllianceDataMessage));//Works
-            m_vMessages.Add(14303, typeof(AskForJoinableAlliancesListMessage));//Not tested
+            m_vMessages.Add(14303, typeof(AskForJoinableAlliancesListMessage));//Works
             m_vMessages.Add(14305, typeof(JoinAllianceMessage));//Not tested
             m_vMessages.Add(14306, typeof(PromoteAllianceMemberMessage));//Not tested
             m_vMessages.Add(14308, typeof(LeaveAllianceMessage));// Can't test
@@ -55,7 +56,7 @@ namespace UCS.PacketProcessing
             m_vMessages.Add(14336, typeof(AskForAllianceWarHistoryMessage));
             m_vMessages.Add(14341, typeof(AskForBookmarkMessage));//Works
             m_vMessages.Add(14343, typeof(AddToBookmarkMessage));//Works
-            m_vMessages.Add(14344, typeof(RemoveFromBookmarkMessage));//Can't test
+            m_vMessages.Add(14344, typeof(RemoveFromBookmarkMessage));//Works
             m_vMessages.Add(14715, typeof(SendGlobalChatLineMessage));//Works
             m_vMessages.Add(14401, typeof(TopGlobalAlliancesMessage));//Works
             m_vMessages.Add(14402, typeof(TopLocalAlliancesMessage));//Works
@@ -63,14 +64,14 @@ namespace UCS.PacketProcessing
             m_vMessages.Add(14404, typeof(TopLocalPlayersMessage));//Works
             m_vMessages.Add(14406, typeof(TopPreviousGlobalPlayersMessage));//Works
             m_vMessages.Add(14503, typeof(TopLeaguePlayersMessage));//Works
-            m_vMessages.Add(14600, typeof(RequestAvatarNameChange));//Can't test
+            m_vMessages.Add(14600, typeof(RequestAvatarNameChange));//Works
         }
 
         public static object Read(Client c, BinaryReader br, int packetType)
         {
             if (m_vMessages.ContainsKey(packetType))
                 return Activator.CreateInstance(m_vMessages[packetType], c, br);
-            Console.WriteLine("[UCS]    The message '" + packetType + "' is unhandled");
+            //Console.WriteLine("[UCS]    The message '" + packetType + "' is unhandled");
             return null;
         }
 
