@@ -18,6 +18,7 @@ using UCS.Core;
 using UCS.Core.Network;
 using UCS.Helpers;
 using UCS.Logic;
+using UCS.Logic.AvatarStreamEntry;
 using UCS.PacketProcessing.Messages.Server;
 
 namespace UCS.PacketProcessing.Messages.Client
