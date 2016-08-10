@@ -8,12 +8,10 @@
 
 ##### These persons are helping with the development of UCS.
 
-* Clugh
-* Creaprog
-* exyjerome
-* Karan Sanjeev
 * PatrikCoC
 * Clash of Lights
+* CrayCray
+* KnightKing
 
 # Developer needed
 
