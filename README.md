@@ -4,7 +4,7 @@
 
 * Ultrapowa									
 * ADeltaX								
-* thecheater887	
+* thecheater887
 
 ##### These persons are helping with the development of UCS.
 
@@ -13,6 +13,7 @@
 * exyjerome
 * Karan Sanjeev
 * PatrikCoC
+* Clash of Lights
 
 # Developer needed
 
