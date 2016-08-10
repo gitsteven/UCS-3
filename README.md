@@ -24,7 +24,7 @@ Ultrapowa is highly need of developers. If you are willing to join, contact [Ult
 # Download
 
 * Download Apk to connect to your Server: 
-* http://www.mediafire.com/download/afcamx8wlj6k5b9/Ultrapowa+Clash+Server.apk
+* http://www.mediafire.com/download/b05ggfh57pbg068/Clash+of+Clans+8.332.16+Patched.apk
 
 # License
 Ultrapowa Clash Server is a free software: you can redistribute it and/or modify
