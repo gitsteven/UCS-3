@@ -106,10 +106,10 @@ namespace UCS.PacketProcessing
             var cm = br.ReadUInt32WithEndian();
             if (m_vCommands.ContainsKey(cm))
             {
-                //WriteLine("[UCS]    Processing " + m_vCommands[cm]);
+                //Console.WriteLine("[UCS]    Processing " + m_vCommands[cm]);
                 return Activator.CreateInstance(m_vCommands[cm], br);
             }
-            Console.WriteLine("\t The command '" + cm + "' has been ignored");
+            //Console.WriteLine("\t The command '" + cm + "' has been ignored");
             return null;
         }
 
