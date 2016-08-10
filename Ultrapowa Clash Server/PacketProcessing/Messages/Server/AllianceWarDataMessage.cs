@@ -34,7 +34,7 @@ namespace UCS.PacketProcessing.Messages.Server
             data.AddInt32(0);
 
             data.AddInt64(1); // Team ID
-            data.AddString("GobelinLand");
+            data.AddString("Ultrapowa");
             data.AddInt32(0);
             data.AddInt32(1);
             data.Add(0);
@@ -46,7 +46,7 @@ namespace UCS.PacketProcessing.Messages.Server
             data.AddInt32(0);
 
             data.AddInt64(1); // Team ID
-            data.AddString("GobelinLand");
+            data.AddString("Ultrapowa");
             data.AddInt32(0);
             data.AddInt32(1);
             data.Add(0);
@@ -69,8 +69,8 @@ namespace UCS.PacketProcessing.Messages.Server
             data.AddInt64(2);
             data.AddInt64(2);
 
-            data.AddString("Berkan");
-            data.AddString("Mimi");
+            data.AddString("Ultra");
+            data.AddString("Powa");
 
             data.AddInt32(2);
             data.AddInt32(1);
