@@ -23,6 +23,9 @@ Ultrapowa is highly need of developers. If you are willing to join, contact [Ult
 ##### Libsodium  requires Visual C++ Redistributable for Visual Studio 2015 to be installed on your computer. If its not installed Sodium.SodiumCore will throw a DllNotFoundException. [***Download Here***](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 # Download
 
+* Download Apk to connect to your Server: 
+* http://www.mediafire.com/download/afcamx8wlj6k5b9/Ultrapowa+Clash+Server.apk
+
 # License
 Ultrapowa Clash Server is a free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
