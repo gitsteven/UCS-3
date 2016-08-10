@@ -110,7 +110,6 @@ namespace UCS.Core
                 PacketManager.ProcessOutgoingPacket(p);
             }
             Console.WriteLine("[UCS]    Shutdown Message Initiated!");
-            Process.Start(Directory.GetCurrentDirectory() + @"\Tools\UCR.exe");
             Environment.Exit(0);
         }
         #endregion Private Methods
