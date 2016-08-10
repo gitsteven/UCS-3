@@ -38,7 +38,7 @@ namespace UCS.PacketProcessing.Messages.Server
             data.AddInt32(1); // 1 Alliance Level
 
             data.AddInt64(2); // 2 Alliance ID
-            data.AddString("GobelinLand"); // 2 Alliance Name
+            data.AddString("Ultrapowa"); // 2 Alliance Name
             data.AddInt32(0); // 2 Alliance Badge
             data.AddInt32(1); // 2 Alliance Level
 
