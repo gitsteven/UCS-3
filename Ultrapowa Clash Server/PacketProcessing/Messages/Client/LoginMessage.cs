@@ -148,6 +148,25 @@ namespace UCS.PacketProcessing.Messages.Client
                 }
                 else // IF NOTHING IS FOUND IN DATABASE WITH THIS ID, WE CREATE A NEW
                     NewUser();
+        
+                if (ResourcesManager.IsPlayerOnline(level))
+                {
+                    var mail = new AllianceMailStreamEntry();
+                    mail.SetId((int)DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1)).TotalSeconds);
+                    mail.SetSenderId(0);
+                    mail.SetSenderAvatarId(0);
+                    mail.SetSenderName("Server Manager");
+                    mail.SetIsNew(0);
+                    mail.SetAllianceId(0);
+                    mail.SetSenderLeagueId(22);
+                    mail.SetAllianceBadgeData(1728059989);
+                    mail.SetAllianceName("Server Admin");
+                    mail.SetMessage(ConfigurationManager.AppSettings["AdminMessage"]);
+                    mail.SetSenderLevel(500);
+                    var p = new AvatarStreamEntryMessage(level.GetClient());
+                    p.SetAvatarStreamEntry(mail);
+                    PacketManager.ProcessOutgoingPacket(p);
+                }
             }
         }
 
