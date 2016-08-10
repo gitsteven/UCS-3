@@ -5,6 +5,8 @@
 * Ultrapowa									
 * ADeltaX								
 * thecheater887
+* Berkan
+* Julian
 
 ##### These persons are helping with the development of UCS.
 
