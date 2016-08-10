@@ -223,13 +223,13 @@ namespace UCS.Logic
             data.AddInt32(m_vScore);
 
             data.AddInt32(100); //Attack win
-            data.AddInt32(0);
-            data.AddInt32(100);
+            data.AddInt32(1);
+            data.AddInt32(100); //Attack loses
             data.AddInt32(0);
 
-            data.AddInt32(0);
-            data.AddInt32(0);
-            data.AddInt32(0);
+            data.AddInt32(2400000); //Castle Gold
+            data.AddInt32(2400000); //Castle Elexir
+            data.AddInt32(1900); //Castle Dark Elexir
             data.Add(1);
             data.AddInt64(0);
 
