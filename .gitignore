@@ -1,47 +1,19 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+Ultrapowa Clash Server/obj/
+packages/
+ucspackages/
+*/obj/*
+Ultrapowa Clash Server/bin/Debug/obj
+.vs/Ultrapowa Clash Server/v14/.suo
+*.scgdat
+*.log
+*.pdb
+Ultrapowa Clash Server/bin/Debug/ucs.exe.manifest
+Ultrapowa Clash Server/bin/Debug/ucs.vshost.application
+*.application
+Ultrapowa Clash Server/bin/Debug/ucs.vshost.exe.manifest
+*.vshost
+Ultrapowa Clash Server/bin/Release/
+Ultrapowa Clash Server/bin/Debug/logs/*
+Ultrapowa Clash Server/bin/Debug/patch/*
+Ultrapowa Clash Server/bin/Debug
+.vs
