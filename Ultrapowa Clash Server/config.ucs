@@ -27,4 +27,6 @@
   <!-- Choose the port for Pro API Manager, by default set value to 1173 -->
   <add key="ApiKey" value="ucs" />
   <!-- Your API Key -->
+  <add key="AdminMessage" value="Welcome to UCS Beta. Make sure to visit Ultrapowa.com!"/>
+    <!-- This Message will be shown in the Mailbox of the Player -->
 </appSettings>
